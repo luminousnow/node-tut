@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "parcel src/index.html",
-    "build": "parcel build src/index.html"
+    "build": "parcel build src/index.html --public-url /node-tut/"
   },
   "repository": {
     "type": "git",
@@ -20,7 +20,9 @@
     "url": "https://github.com/luminousnow/node-tut/issues"
   },
   "homepage": "https://github.com/luminousnow/node-tut#readme",
-  "dependencies": {},
+  "dependencies": {
+    "parcel-plugin-nuke-dist": "^1.0.1"
+  },
   "devDependencies": {
     "parcel-bundler": "^1.12.4"
   }
